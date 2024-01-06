@@ -18,6 +18,8 @@
       <_ContentIncludedByDefault Remove="rendered\wwwroot\appsettings.json" />
       <_ContentIncludedByDefault Remove="rendered\wwwroot\sample-data\weather.json" />
       <_ContentIncludedByDefault Remove="rendered\wwwroot\_framework\blazor.boot.json" />
+      <_ContentIncludedByDefault Remove="docs\_framework\blazor.boot.json" />
+      <_ContentIncludedByDefault Remove="docs\sample-data\weather.json" />
     </ItemGroup>
 
     <ItemGroup>
@@ -51,7 +53,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="rendered\wwwroot\" />
+      <Folder Include="rendered\" />
     </ItemGroup>
 
 </Project>
